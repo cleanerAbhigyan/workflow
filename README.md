@@ -1,20 +1,20 @@
-# Workflows
+# workflow
 
 A version-controlled home for reusable automations, integrations, data and AI workflows.
 
-**Notion tracking hub:** [Workflows — My Mind](https://app.notion.com/p/411504b1d5b681d2b02fdda09be680e8)
+**Notion tracking hub:** [workflow — My Mind](https://app.notion.com/p/411504b1d5b681d2b02fdda09be680e8)
 
 ## Source of truth
 
 - **GitHub:** source code, example configurations, tests, execution instructions and version history.
 - **Notion:** Workflow Registry, business purpose, progress, key decisions, problems, lessons and next steps.
 
-Each new workflow should have a Notion Registry entry and a matching directory under `workflows/<workflow-name>/`. Cross-link both records.
+Each new workflow should have a Notion Registry entry and a matching directory under `workflow/<workflow-name>/`. Cross-link both records.
 
 ## Suggested layout
 
 ```text
-workflows/
+workflow/
   <workflow-name>/
     README.md         # Goal, trigger, inputs, outputs, setup and execution
     src/              # Workflow implementation
